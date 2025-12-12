@@ -1,0 +1,150 @@
+/*
+body {
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.5s ease;
+}
+  */
+
+  .sellerhd {
+  columns: 20px 2;
+}
+
+.btn{
+    background-color: #0468aa;
+  border: none;
+  color: black;
+  padding: 6px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 6px;
+}
+
+.btn {
+    box-shadow: 0 4px 8px 0 blue;
+}
+
+.btn:hover {
+    box-shadow: 0 8px 16px 0 rgba(15, 120, 146, 0.6);
+}
+
+.btn:active {
+  box-shadow: 0 2px #021752;
+  transform: translateY(1px);
+}
+
+.header {
+  display: flex;
+align-items: center;
+justify-container; flex-end;
+
+max-height:280px;
+padding: 0 50px;
+}
+
+.header-text {
+max-width: 100%;
+text-align: right;
+}
+
+.header-text h1{
+margin: 0;
+font-size: 3.2rem;
+line-height: 1.2;
+}
+
+.header-text h2{
+margin-top: 6px;
+font-size: 1.3rem;
+font-weight: normal;
+}
+
+.about {
+background-color: green;
+max-height: 280px
+}
+
+.contact{
+background-color: blue;
+max-height: 280px
+}
+
+.carousel-items {
+  max-width: 75%;
+  position: relative;
+  margin: auto;
+}
+
+.text {
+  color: tan;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 75%;
+  text-align: center;
+}
+
+.numbertext {
+  color: tan;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: lightblue;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #eb185e;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+label {display: block;}
+ 
+input[type=text] {
+  width: 100%;
+  padding: 24px;
+  margin: px 20;
+  box-sizing: border-box;
+}
+
+.testimonials{
+background-color: black;
+max-height: 300px;
+}
+
+.footer{
+  background-color: rgb(125, 129, 129);
+  max-height: 280px
+}
+
+.footer-social {
+background-color: yellow;
+max-height: 300px;
+}
