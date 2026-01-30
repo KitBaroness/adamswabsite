@@ -8,14 +8,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta property="og:title" content="Nailed It Renovations LLC">
   <meta property="og:description" content="Solid Renovations done with skill">
-  <meta property="og:image" content="https://example.com/image.jpg">
-  <meta property="og:url" content="https://example.com/page-url">
+  <meta property="og:image" content="https://naileditrenovations.org/naileditclogo.jpg">
+  <meta property="og:url" content="https://naileditrenovations.org/">
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Your Site Name">
+  <meta property="og:site_name" content="Nailed it renovations">
   <link rel="stylesheet" href="./css/structurestyle.css">
   <link rel="stylesheet" href="./css/carousel.css">
-  <script src="./js/fallingits.js" defer></script>
+  <!-- <script src="./js/fallingits.js" defer></script> -->
   <script src="./js/structurestyle.js" defer></script>
+  <script src="./js/form.js" defer></script>
 </head>
 
 <body>
@@ -75,7 +76,7 @@
     </div>
 
         <!-- services containers  made left to right bullut points on right-->
-         <div class="services" id="servives">
+         <div class="services" id="services">
             <h2>What ever you needs your home will need!!!</h2>
             <div class="services-container">
                 <div class="services-list">
@@ -97,30 +98,36 @@
             <div class="contact-info-box">
                 <div class="contact-details">
                     <p><b>Email</b><br>
-                    adam@naileditrenovations.llc</p>
-
+                        adam@naileditrenovations.llc</p>
+        
                     <p><b>Phone</b><br>
-                    <a href="sms:+13608241850?body=Hi%2C%20I%27m%20interested%20in%20learning%20more%20about%20your%20renovation%20services." class="phone-link">(360) 824-1850</a></p>
-
+                        <a href="sms:+13608241850?body=Hi%2C%20I%27m%20interested%20in%20learning%20more%20about%20your%20renovation%20services."
+                            class="phone-link">(360) 824-1850</a>
+                    </p>
+        
                     <p><b>Address</b>
-                    Silverdale, WA, United States, 98366</p>
+                        Silverdale, WA, United States, 98366</p>
+                    
+                    <p><b>License Number</b>
+                         NAILEIR7870G UBI: 604-947-969</p>
                 </div>
-
+        
                 <div class="contact-form-box">
                     <h3>Send me a message!</h3>
-                    <form action="server" id="usrform" method="post">                            
+                    <form id="sms-form">
                         <label for="name">Name</label><br>
                         <input type="text" id="name" name="name" required><br>
-                        
-                        <label for="phone">Phone number:</label><br>
-                        <input type="tel" id="phone" name="phone" placeholder="876-5309"><br>
-                    
-                        <label for="comment">Message:</label><br>
-                        <textarea id="comment" rows="4" cols="50" name="comment" form="usrform" required>Enter text here...</textarea><br>
-
-                    <input type="submit" class="button" value="submit">
-                </form>
-            </div>    
+        
+                        <label for="phone">Phone number</label><br>
+                        <input type="tel" id="phone" name="phone" placeholder="876-5309" required><br>
+        
+                        <label for="comment">Message</label><br>
+                        <textarea id="comment" rows="4" cols="50" name="comment" required></textarea><br>
+        
+                        <input type="submit" class="button" value="Send SMS">
+                    </form>
+                </div>
+            </div>
         </div>
         
 
@@ -189,7 +196,7 @@
             </div>
         </div>
         </div>
-                <img src="./public/logos/naileditclogo.jpg" width="12%" alt="logo">
+                <center><img src="./public/logos/naileditclogo.jpg" width="12%" alt="logo"></center>
         
 
     </main>
@@ -205,10 +212,9 @@
             <div class="footer-info">
                 <p>Services area: Silverdale, WA · Bremerton, WA · Gig Harbor, WA · Port Orchard, WA</p>
                 <p>Nailed It Renovations LLC 3136 Beechcrest Ct SE Port Orchard Washington 98366</p>
-                <p>License Number: NAILEIR7870G UBI: 604-947-969</p>
-                <p>Business address: Silverdale, WA, United States, 98366</p>
-                <p>Email: adam@naileditrenovations.llc | Phone: (360) 824-1850</p>
+                <p>Made by Corey Czimback</p>
             </div>
+
         </div>
     </footer>
 </body>

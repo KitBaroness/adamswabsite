@@ -90,10 +90,10 @@ function myFunction() {
 }
 
 
-//OLD BUTTON CODE I MOVED IN TO FILE BLINDLY
- //button onclick="myFunction();
+/**OLD BUTTON CODE I MOVED IN TO FILE BLINDLY
+ button onclick="myFunction();
 
- // Smooth scrolling for all anchor links
+  Smooth scrolling for all anchor links**/
 document.addEventListener('DOMContentLoaded', function() {
     const links = document.querySelectorAll('a[href^="#"]');
     
